@@ -1,1 +1,185 @@
-Initial commit.
+<html lang="en"> 
+
+	<head>
+		<meta charset="utf-8">
+
+		<title>Firefox OS</title>
+
+		<meta name="description" content="Mozilla">
+		<meta name="author" content="Nino Vranešič">
+
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+		<link rel="stylesheet" href="css/reveal.min.css">
+		<link rel="stylesheet" href="css/theme/one-mozilla.css" id="theme">
+
+		<!-- For syntax highlighting -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+		<!-- If the query includes 'print-pdf', use the PDF print sheet -->
+		<script>
+			document.write( '<link rel="stylesheet" href="css/print/' + ( window.location.search.match( /print-pdf/gi ) ? 'pdf' : 'paper' ) + '.css" type="text/css" media="print">' );
+		</script>
+
+		<!--[if lt IE 9]>		<script src="lib/js/html5shiv.js"></script>
+		<![endif]-->
+	</head>
+
+	<body>
+
+		<div class="reveal">
+
+			<!-- Any section element inside of this container is displayed as a slide -->
+			<div class="slides">
+					
+				<section>
+					
+					<img src="img/firefox-os.png"  >
+					<h4></br>Nino Vranešič, Brian King</h4>
+					<p>
+						<small>World Wide Web: <a href="http://www.mozilla.si" target="_blank">mozilla.si</a> | Twitter: <a href="https://twitter.com/MozillaSI" target="_blank">@MozillaSI</a> | FB: <a href="https://www.facebook.com/mozillaslovenija" target="_blank">facebook.com/mozillaslovenija</a></small>
+					</p>
+
+
+					<aside class="notes">
+					
+					</aside>
+
+				</section>
+
+				<section>	
+						<h3>Kaj je Firefox OS?</h3>
+						<p>
+						Odprt mobilni operacijski sistem temelječ na spletu
+						
+						</p></br>
+						<img id="rounded" width="70%" height="70%" src="img/BYOP.png">
+						<aside class="notes">
+						
+						</aside>
+				</section>
+
+				<section>	
+						<h3>Odprta platforma za razvoj</h3>
+						<p>
+						<ul>
+							<li>Namen projekta je razvoj odprtega spleta</li>
+							<li>Odprti splet kot platforma za mobilne naprave</li>
+							<li>To nam lahko uspe z inoviranjem novih spletnih standardov.</li>
+						</ul>
+						
+						
+						</p>
+						<img   src="img/opendevice.png">
+						<aside class="notes">
+						
+						</aside>
+				</section>
+							
+				<section>
+					<h3>Enostaven obris</h3>
+						<p>
+						<ul>
+							<li>Splet je platforma</li>
+							<li>Operacijski sistem je brskalnik</li>
+							<li>Spletne strani so aplikacije</li>
+						</ul>
+						
+						</p></br>
+						<img width="40%" height="40%" src="img/FirefoxOS.2.png">
+						<aside class="notes">
+				</section>
+
+				<section>
+					<img id="rounded" src="img/GG.jpg">
+				</section>
+
+				<section>
+					<h3>HTML + CSS + JavaScript</h3>
+					<img src="img/pregled_OS.png"></br>
+					
+				</section>
+
+				<section>
+					<h3>Dostop do vseh funkcionalnosti</h3>
+					<img id="rounded" src="img/webapi.png">
+					</br></br><a href="https://wiki.mozilla.org/WebAPI"> https://wiki.mozilla.org/WebAPI</a>
+				</section>
+
+				<section>
+					<h3>Dinamične aplikacije</h3>
+					<img src="img/app_search.jpg">
+				</section>
+
+				<section>
+					<a href="https://marketplace.firefox.com/" target="_blank">Firefox Marketplace</a>
+					<img width="70%" height="70%" id="rounded" src="img/firefoxmarketplace.jpg">
+
+				</section>
+
+				<section>
+						<h3>Firefox OS Simulator</h3>
+						<img id="rounded" src="img/FirefoxSIM.jpg">
+				</section>
+
+				<section>
+					<img id="rounded" src="img/phones.jpg">
+				</section>
+
+				<section>
+					<img width="120%" height="120%" src="img/ride.gif">
+				</section>
+
+						
+				
+
+				
+
+				<section>
+					<img width="120%" height="120%" src="img/mozilla.png">
+					<p>	<h4>Nino Vranešič</h4>
+						<small>Email: <a href="mailto:nino@mozilla.si">nino@mozilla.si</a> | Twitter: <a href="https://twitter.com/ninovranesic" target="_blank">@ninovranesic</a> | FB: <a href="https://www.facebook.com/nino.vranesic" target="_blank">facebook.com/nino.vranesic</a></small>
+					</p>
+					</br><p>	<h4>Brian King</h4>
+						<small>Email: <a href="mailto:nino@mozilla.si">bking@mozilla.com</a> | Twitter: <a href="http://twitter.com/brianking" target="_blank">@brianking</a>
+					</p>
+
+				</section>
+
+
+			</div>
+
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.min.js"></script>
+
+		<script>
+
+			// Full list of configuration options available here:
+			// https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				controls: false,
+				progress: true,
+				history: true,
+				center: true,
+
+				theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
+				transition: Reveal.getQueryHash().transition || 'concave', // default/cube/page/concave/zoom/linear/none
+
+				// Optional libraries used to extend on reveal.js
+				dependencies: [
+					{ src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: 'plugin/markdown/showdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{ src: 'plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+					{ src: 'plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }
+					// { src: 'plugin/remotes/remotes.js', async: true, condition: function() { return !!document.body.classList; } }
+				]
+			});
+
+		</script>
+
+	</body>
+</html>
